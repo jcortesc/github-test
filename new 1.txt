@@ -1,0 +1,5 @@
+//commands very important
+git init //create a repository
+git add .
+git commit -m 
+git push

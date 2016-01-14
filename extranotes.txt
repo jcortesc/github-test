@@ -1,0 +1,258 @@
+
+Jorge@Jorge-HP MINGW64 ~
+$ lcd
+bash: lcd: command not found
+
+Jorge@Jorge-HP MINGW64 ~
+$ dir
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+Music
+My\ Documents
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{7d56a272-a357-11e5-b271-9ee1d7fe3a5c}.TM.blf
+NTUSER.DAT{7d56a272-a357-11e5-b271-9ee1d7fe3a5c}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{7d56a272-a357-11e5-b271-9ee1d7fe3a5c}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive
+Pictures
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+Virtual\ Machines
+
+Jorge@Jorge-HP MINGW64 ~
+$
+
+Jorge@Jorge-HP MINGW64 ~
+$ cd documents
+
+Jorge@Jorge-HP MINGW64 ~/documents
+$ cd javascript
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ git clone https://github.com/jcortesc/github-test.git
+Cloning into 'github-test'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ github-test git:(master)
+bash: syntax error near unexpected token `('
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ github-test git:master
+bash: github-test: command not found
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ ls
+app.js  github-test/  index.html
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ cd github-tes
+bash: cd: github-tes: No such file or directory
+t
+Jorge@Jorge-HP MINGW64 ~/documents/javascript
+$ cd github-test
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+        index2.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git add .
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ dir
+index.html  index2.html
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ ls
+index.html  index2.html
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   index2.html
+
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git commit -m "initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <Jorge@Jorge-HP.(none)>) not allowed
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git config --global user.email "jcortesc@hotmail.com"
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git config --global user.name "jorge"
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git commit -m "initial commit"
+[master (root-commit) eee2c91] initial commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 index.html
+ create mode 100644 index2.html
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 272 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/jcortesc/github-test.git
+ * [new branch]      master -> master
+
+Jorge@Jorge-HP MINGW64 ~/documents/javascript/github-test (master)
+$ git config --global user.name "jorge"
